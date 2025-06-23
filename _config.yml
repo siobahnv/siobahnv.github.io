@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Heather's aka siobahnv's Github landing page
+title: Heather's aka siobahnv's Github Landing Page
 email: siobahnv@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My coding landing page through Github, let's see if this even works...
@@ -31,6 +31,7 @@ github_username:  siobahnv
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

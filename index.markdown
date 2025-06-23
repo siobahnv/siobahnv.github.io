@@ -3,4 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
 ---
+
+Hello, World Tree! <br>
+Does this page.title work? {{ page.title }} <br>
