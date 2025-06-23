@@ -10,6 +10,10 @@
 @use "main";
 // More components are usually imported here.
 
+@import "{{ site.theme }}";
+@import "minima";
+@import "main";
+
 a:visited { 
   color: green; 
 }

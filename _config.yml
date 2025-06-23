@@ -23,7 +23,7 @@ email: siobahnv@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My coding landing page through Github, let's see if this even works...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://siobahnv.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: siobahnv
 github_username:  siobahnv
 
