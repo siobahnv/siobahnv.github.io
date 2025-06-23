@@ -2,6 +2,14 @@
 
 ---
 
-@import
-  "minima",
-  "main";
+@use "minima" with (
+  $text-color: white,
+  $background-color: black,
+);
+
+@use "main";
+// More components are usually imported here.
+
+a:visited { 
+  color: green; 
+}
