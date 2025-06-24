@@ -8,3 +8,7 @@ title: Home
 
 <a href="">Hello</a>, World Tree! <br>
 Does this <a href="fake.com">page.title</a> work? {{ page.title }} <br>
+
+# Skills
+# Projects
+# Contact
