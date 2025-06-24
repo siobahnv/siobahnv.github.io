@@ -6,5 +6,5 @@ layout: home
 title: Home
 ---
 
-Hello, World Tree! <br>
-Does this page.title work? {{ page.title }} <br>
+<a href="">Hello</a>, World Tree! <br>
+Does this <a href="fake.com">page.title</a> work? {{ page.title }} <br>
