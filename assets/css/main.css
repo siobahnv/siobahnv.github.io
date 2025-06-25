@@ -1,0 +1,15 @@
+#sidebar{
+  position: relative;
+}
+
+#banner{
+  position: sticky;
+  top: 10px;
+}
+
+@media (min-width: 550px) { /*Skeletons default grid-activation width*/
+  #sidebar{
+    position: fixed;
+    max-width: 18%; /*Avoids overlapping*/
+  }
+}
