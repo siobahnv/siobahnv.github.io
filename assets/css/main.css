@@ -1,3 +1,4 @@
+/*
 #sidebar{
   position: relative;
 }
@@ -7,9 +8,55 @@
   top: 10px;
 }
 
-@media (min-width: 550px) { /*Skeletons default grid-activation width*/
-  #sidebar{
+@media (min-width: 550px) {
+
+    #sidebar {
+        position: fixed;
+        max-width: 18%;
+    }
+}
+*/
+.is-rounded {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.social-media {
+    height: 2em;
+    width: 2em;
+}
+
+.navbar {
     position: fixed;
-    max-width: 18%; /*Avoids overlapping*/
-  }
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    height: 4em;
+    background: white;
+}
+
+.nav-title {
+    float: left;
+    padding: 10px;
+}
+
+.navigation {
+    float: right;
+    padding: 10px;
+}
+
+.topbuff {
+    margin-top: 4em;
+    padding-top: 2em;
+    position: relative;
+    overflow: scroll;
+}
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10%;
 }
