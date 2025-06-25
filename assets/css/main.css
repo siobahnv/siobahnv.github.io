@@ -16,10 +16,14 @@
     }
 }
 */
-.is-rounded {
-    object-fit: cover;
+
+img {
     height: 200px;
     border-radius: 20%;
+}
+
+.is-rounded {
+    object-fit: cover;
 }
 
 .social-media {
