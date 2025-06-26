@@ -78,7 +78,7 @@
                         <p>and I'm ...</p>
                     </div>
                     <div class="section stack" id="my-stack">
-                        <h5>My Stack</h5>
+                        <h5 class="section-title">My Stack</h5>
                         <div id="my-stack-button-container">
                             <div class="top-stack-buttons">
                                 <button class="btn" onclick="filterSelection('all')"> All</button>
@@ -90,75 +90,61 @@
                                 <button class="btn" onclick="filterSelection('langg')"> Language</button>
                                 <button class="btn" onclick="filterSelection('frontt')"> Frontend</button>
                                 <button class="btn" onclick="filterSelection('backk')"> Backend</button>
+                                <button class="btn" onclick="filterSelection('toolls')"> Tools</button>
                             </div>
                         </div>
                         <div class="stack-container">
                             <div class="filterDiv showr todos frontt">Bootstrap CSS</div>
                             <div class="filterDiv showr depp langg">Cocoa/Objective-C</div>
-                            <div class="filterDiv showr supp langg">CSS</div>
-                            <div class="filterDiv showr todos">ExpressJS</div>
-                            <div class="filterDiv showr supp">Git</div>
-                            <div class="filterDiv showr supp">Github</div>
+                            <div class="filterDiv showr supp langg frontt">CSS</div>
+                            <div class="filterDiv showr todos backk">ExpressJS</div>
+                            <div class="filterDiv showr supp toolls">Git</div>
+                            <div class="filterDiv showr supp toolls">Github</div>
                             <div class="filterDiv showr supp langg">Google Apps Script</div>
-                            <div class="filterDiv showr supp langg">HTML</div>
+                            <div class="filterDiv showr supp langg frontt">HTML</div>
                             <div class="filterDiv showr depp langg">Java</div>
                             <div class="filterDiv showr supp langg frontt backk">JavaScript</div>
                             <div class="filterDiv showr todos backk">NodeJS</div>
                             <div class="filterDiv showr supp langg backk">Python</div>
-                            <div class="filterDiv showr todos">React</div>
+                            <div class="filterDiv showr todos frontt">React</div>
                             <div class="filterDiv showr depp langg">Ruby</div>
                             <div class="filterDiv showr todos frontt">Tailwind CSS</div>
-                            <div class="filterDiv showr todos langg">TypeScript</div>
+                            <div class="filterDiv showr todos langg frontt">TypeScript</div>
                             <div class="filterDiv showr todos">Vercel</div>
                         </div>
                     </div>
                     <div class="section projects" id="my-projects">
-                        <h5>My Projects</h5>
-                        <p>Project 1</p>
-                        <p>Bacon ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami ball tip ea
-                            aute
-                            irure duis cow mollit velit esse. Incididunt ham hock consectetur, pastrami officia
-                            dolore
-                            reprehenderit picanha turkey landjaeger non short loin pancetta shank. Irure nisi strip
-                            steak
-                            lorem laboris beef ipsum shankle est spare ribs prosciutto id ham hock pork belly.
-                            Aliquip
-                            pork
-                            chop kevin duis. Andouille adipisicing doner ribeye ut, velit aute kevin ullamco ad jowl
-                            frankfurter. Short loin ea nisi, capicola ex landjaeger ball tip andouille shank
-                            turducken.
-                            Swine cillum occaecat sirloin kevin porchetta, chislic consectetur non.</p>
-                        <p>Project 2</p>
-                        <p>Bacon ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami ball tip ea
-                            aute
-                            irure duis cow mollit velit esse. Incididunt ham hock consectetur, pastrami officia
-                            dolore
-                            reprehenderit picanha turkey landjaeger non short loin pancetta shank. Irure nisi strip
-                            steak
-                            lorem laboris beef ipsum shankle est spare ribs prosciutto id ham hock pork belly.
-                            Aliquip
-                            pork
-                            chop kevin duis. Andouille adipisicing doner ribeye ut, velit aute kevin ullamco ad jowl
-                            frankfurter. Short loin ea nisi, capicola ex landjaeger ball tip andouille shank
-                            turducken.
-                            Swine cillum occaecat sirloin kevin porchetta, chislic consectetur non.</p>
-                        <p>Project 3</p>
-                        <p>Bacon ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami ball tip ea
-                            aute
-                            irure duis cow mollit velit esse. Incididunt ham hock consectetur, pastrami officia
-                            dolore
-                            reprehenderit picanha turkey landjaeger non short loin pancetta shank. Irure nisi strip
-                            steak
-                            lorem laboris beef ipsum shankle est spare ribs prosciutto id ham hock pork belly.
-                            Aliquip
-                            pork
-                            chop kevin duis. Andouille adipisicing doner ribeye ut, velit aute kevin ullamco ad jowl
-                            frankfurter. Short loin ea nisi, capicola ex landjaeger ball tip andouille shank
-                            turducken.
-                            Swine cillum occaecat sirloin kevin porchetta, chislic consectetur non.</p>
+                        <h5 class="section-title">My Projects</h5>
+                        <div class="project-container">
+                            <h6 class="project-title">Project 1 (Repo Title)</h6>
+                            <p class="project-description"><span class="project-desc-title">Description:</span> Bacon
+                                ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami
+                                ball tip ea aute irure duis cow mollit velit esse. Incididunt ham hock consectetur,
+                                pastrami officia dolore</p>
+                            <div class="project-tech"><span class="project-tech-title">Technologies used:</span> tech1,
+                                tech2, tech3</div>
+                        </div>
+                        <div class="project-container">
+                            <h6 class="project-title">Project 2 (Repo Title)</h6>
+                            <p class="project-description"><span class="project-desc-title">Description:</span> Bacon
+                                ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami
+                                ball tip ea aute irure duis cow mollit velit esse. Incididunt ham hock consectetur,
+                                pastrami officia dolore</p>
+                            <div class="project-tech"><span class="project-tech-title">Technologies used:</span> tech1,
+                                tech2, tech3</div>
+                        </div>
+                        <div class="project-container">
+                            <h6 class="project-title">Project 3 (Repo Title)</h6>
+                            <p class="project-description"><span class="project-desc-title">Description:</span> Bacon
+                                ipsum dolor amet shoulder leberkas cupidatat tail short loin pastrami
+                                ball tip ea aute irure duis cow mollit velit esse. Incididunt ham hock consectetur,
+                                pastrami officia dolore</p>
+                            <div class="project-tech"><span class="project-tech-title">Technologies used:</span> tech1,
+                                tech2, tech3</div>
+                        </div>
                     </div>
                     <div class="section education" id="my-education">
-                        <h5>My Education</h5>
+                        <h5 class="section-title">My Education</h5>
                     </div>
                 </div>
             </div>
