@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="assets/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/main.css">
 
+    <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="assets/js/stack.js"></script>
+
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -74,11 +78,38 @@
                         <p>and I'm ...</p>
                     </div>
                     <div class="section stack" id="my-stack">
-                        <h5>My Stack</h5>
-                        <p>Active: JavaScript and Python</p>
-                        <p>Discontinued: Ruby and Java. Learned and used once upon a time. Fall out of favor, if ever gained.</p>
-                        <p>Probably Nots: Rust. Until convinced otherwise.</p>
-                        <p>Rather Nots: PHP. No thank you.</p>
+                        <div id="my-stack-button-container">
+                            <div class="top-stack-buttons">
+                                <button class="btn" onclick="filterSelection('all')"> All</button>
+                                <button class="btn" onclick="filterSelection('supp')">Active</button>
+                                <button class="btn" onclick="filterSelection('todos')">TODOs</button>
+                                <button class="btn" onclick="filterSelection('depp')">Deprecated</button>
+                            </div>
+                            <div class="bottom-stack-buttons">
+                                <button class="btn" onclick="filterSelection('langg')"> Language</button>
+                                <button class="btn" onclick="filterSelection('frontt')"> Frontend</button>
+                                <button class="btn" onclick="filterSelection('backk')"> Backend</button>
+                            </div>
+                        </div>
+                        <div class="stack-container">
+                            <div class="filterDiv showr todos frontt">Bootstrap CSS</div>
+                            <div class="filterDiv showr depp langg">Cocoa/Objective-C</div>
+                            <div class="filterDiv showr supp langg">CSS</div>
+                            <div class="filterDiv showr todos">ExpressJS</div>
+                            <div class="filterDiv showr supp">Git</div>
+                            <div class="filterDiv showr supp">Github</div>
+                            <div class="filterDiv showr supp langg">Google Apps Script</div>
+                            <div class="filterDiv showr supp langg">HTML</div>
+                            <div class="filterDiv showr depp langg">Java</div>
+                            <div class="filterDiv showr supp langg frontt backk">JavaScript</div>
+                            <div class="filterDiv showr todos backk">NodeJS</div>
+                            <div class="filterDiv showr supp langg backk">Python</div>
+                            <div class="filterDiv showr todos">React</div>
+                            <div class="filterDiv showr depp langg">Ruby</div>
+                            <div class="filterDiv showr todos frontt">Tailwind CSS</div>
+                            <div class="filterDiv showr todos langg">TypeScript</div>
+                            <div class="filterDiv showr todos">Vercel</div>
+                        </div>
                     </div>
                     <div class="section projects" id="my-projects">
                         <h5>My Projects</h5>
@@ -133,7 +164,8 @@
         </div>
     </div>
 
-    <footer></footer>
+    <footer><a target="_blank" href="https://icons8.com/icons/dotty">Dotty Icons</a> by <a target="_blank"
+            href="https://icons8.com">Icons8</a></footer>
 
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

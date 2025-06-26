@@ -18,49 +18,96 @@
 */
 
 img {
-    height: 200px;
-    border-radius: 20%;
+  height: 200px;
+  border-radius: 20%;
 }
 
 .is-rounded {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .social-media {
-    height: 2em;
-    width: 2em;
+  height: 2em;
+  width: 2em;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1;
-    height: 4em;
-    background: white;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  height: 4em;
+  background: white;
 }
 
 .nav-title {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 .navigation {
-    float: right;
-    padding: 10px;
+  float: right;
+  padding: 10px;
 }
 
 .topbuff {
-    margin-top: 4em;
-    padding-top: 2em;
-    position: relative;
-    overflow: scroll;
+  margin-top: 4em;
+  padding-top: 2em;
+  position: relative;
+  overflow: scroll;
 }
 
 .sidebar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 10%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10%;
+}
+
+img.dotty-img-stack {
+  height: 2em;
+}
+
+.filterDiv {
+  float: left;
+  text-align: center;
+  margin: 3px;
+  padding: 3px;
+  border: dotted;
+  border-radius: 4px;
+  display: none;
+}
+
+.showr {
+  display: block;
+}
+
+.stack-container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.activebtn {
+  background-color: #666;
+  color: white;
 }
