@@ -149,3 +149,7 @@ li.project-tech-item {
   border: dotted;
   border-radius: 4px;
 }
+
+#randomHelloWorld, #randomTitle {
+  color: coral;
+}
