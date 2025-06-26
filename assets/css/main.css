@@ -123,4 +123,29 @@ img.dotty-img-stack {
 
 .project-container {
   padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* Style Project Section Tech-Subsection */
+.project-tech {
+  display: inline-block;
+}
+
+.project-tech-title {
+  float: left;
+  padding-right: 1em;
+}
+
+ul.project-tech-list {
+  list-style: none;
+  display: inline;
+}
+
+li.project-tech-item {
+  float: left;
+  text-align: center;
+  margin: 3px;
+  padding: 3px;
+  border: dotted;
+  border-radius: 4px;
 }
