@@ -24,6 +24,7 @@ function replaceMyElemFromArr(paramId, paramRandArr) {
 
 //////
 
+/*
 // Might take out...
 function blinkingCursor() {
     const cursor = document.getElementById('cursor');
@@ -38,6 +39,28 @@ function blinkingCursor() {
         isCursorVisible = !isCursorVisible;
     }, 500); // Blinking speed in milliseconds
 }
+*/
+
+//////
+
+function loopingDelayedTiming(text, id, delay) {
+    // code
+    for (let i = 0; i <= text.length; i++) {
+        setTimeout(function () {
+            const mySlice = getSlice(text, i);
+            console.log(`Iteration ${i}`);
+            console.log(`myslice: ${mySlice}`);
+            console.log(`delay inside loop: ${delay}`);
+            replaceMyElem(id, mySlice);
+            delay = 500 * i;
+        }, 500 * i + delay); // Increase delay for each iteration
+    }
+    // console.log(text);
+    // console.log(id.textContent);
+    // console.log(delay);
+
+    // return delay;
+}
 
 //////
 
@@ -45,7 +68,8 @@ function blinkingCursor() {
 window.addEventListener('load', function () {
     // Bloody scoping...
     // Your code to execute after the page fully loads
-    blinkingCursor();
+
+    // blinkingCursor();
 
     // Print first line, "Hello World"
     const helloWorldID = "randomHelloWorld";
@@ -55,23 +79,18 @@ window.addEventListener('load', function () {
 
     let delay = 0;
 
-    for (let i = 0; i <= randomText.length; i++) {
-        setTimeout(function () {
-            const mySlice = getSlice(randomText, i);
-            console.log(`Iteration ${i}`);
-            console.log(mySlice);
-            console.log(delay);
-            replaceMyElem(helloWorldID, mySlice);
-            delay = 500 * i;
-        }, 500 * i); // Increase delay for each iteration
-    }
-    console.log(randomText);
-    console.log(helloWorldID.textContent);
-    console.log(delay);
+    loopingDelayedTiming(randomText, helloWorldID, delay);
+    delay += 500 * randomText.length;
+    console.log("The next starting delay is: " + delay);
 
     // After printing first line, "Hello World"
     // Print middle line
-
+    const middleGreetingID = "middleGreeting";
+    // const middleText = document.getElementById(middleGreetingID).textContent;
+    const middleText = "I'm Heather, and I am";
+    loopingDelayedTiming(middleText, middleGreetingID, delay);
+    console.log("The next starting delay is: " + delay);
+    console.log("end of middle line code");
 
     // Print last line
     const personalTitleID = "randomTitle";
