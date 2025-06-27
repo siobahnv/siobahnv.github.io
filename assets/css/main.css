@@ -150,6 +150,16 @@ li.project-tech-item {
   border-radius: 4px;
 }
 
+/* Style for Random Text */
 #randomHelloWorld, #randomTitle {
   color: coral;
+}
+
+#cursor {
+  animation: blink 1s infinite; 
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
