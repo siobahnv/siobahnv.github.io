@@ -10,7 +10,9 @@ This is a professional landing page for myself using GitHub Pages. <br>
 ## Built With
 Mostly vanilla HTML and JavaScript with a dash of CSS, due to being a simpler static page. No database. No API calls.  <br>
 
-(There's *no Jekyll*. That's right, this does not actually make use of the Jekyll site generator and structure as suggested by Github.) <br>
+There's *no Jekyll*. That's right, this does not actually make use of the Jekyll site generator and structure as suggested by Github. <br>
+
+Since there's no Jekyll and there's no templates, the main content and most boilerplate will be in index.html. <br>
 
 [Skeleton CSS](http://getskeleton.com/) <br>
 
