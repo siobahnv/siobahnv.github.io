@@ -1,15 +1,17 @@
 <a id="readme-top"></a>
 
 # [siobahnv.github.io](https://siobahnv.github.io/)
-By Heather Ransome, find out more about the developer on [LinkedIn](https://www.linkedin.com/in/siobahnv/) or contact directly at siobahnv@gmail.com <br>
+By Heather Ransome, find out more about the developer on [LinkedIn](https://www.linkedin.com/in/siobahnv/) or contact directly at siobahnv@gmail.com. <br>
+
 Deployed site: [siobahnv.github.io](https://siobahnv.github.io/) <br>
-Root root <br>
 
 This is a professional landing page for myself using GitHub Pages. <br>
 
 ## Built With
 Mostly vanilla HTML and JavaScript with a dash of CSS, due to being a simpler static page. No database. No API calls.  <br>
+
 (There's *no Jekyll*. That's right, this does not actually make use of the Jekyll site generator and structure as suggested by Github.) <br>
+
 [Skeleton CSS](http://getskeleton.com/) <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -22,7 +24,6 @@ Navigate to the directory where the project has been downloaded. <br>
 ```
 % npx http-server /path/to/project -o -p 9999
 ```
-Hit CTRL-C to stop the server <br>
 Open: [http://127.0.0.1:9999](http://127.0.0.1:9999) <br>
 
 ### Setting up your own Github Pages
