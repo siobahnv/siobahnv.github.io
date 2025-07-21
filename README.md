@@ -33,9 +33,10 @@ Follow [Github's Pages Quickstart](https://docs.github.com/en/pages/quickstart) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgements
+## Acknowledgements and Resources
 [GitHub Pages](https://pages.github.com) <br>
 [Skeleton CSS Boilerplate](http://getskeleton.com/) <br>
 ["Free Social Icons Set"](https://www.figma.com/community/file/781433958384474541) by Alex Martynov via Figma  <br>
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
